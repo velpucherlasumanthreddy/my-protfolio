@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY PROTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
             <H1>WELCOME TO MY PROTFOLIO</H1>
-    <a>
-        <button>ABOUT</button>
+            <div>
+                <a href="#about">
+        <button class="button">ABOUT</button>
+    </a >
+    <a href="#skils">
+        <button class="button">SKILLS</button>
     </a>
-    <a>
-        <button>SKILLS</button>
+    <a href="#projects">
+        <button class="button">PROJECTS</button>
     </a>
-    <a>
-        <button>PROJECTS</button>
-    </a>
-    <a>
-        <button>CONTACTS</button>
+    <a href="#contact">
+        <button class="button">CONTACTS</button>
     </a>
 
+            </div>
+    
 
     </header>
 
@@ -60,33 +64,44 @@
                 <H1>CONTACT ME</H1>
     <P>FEEL FREE TO GET IN TOUCH WITH ME USING THE FORM BELOW :</P>
     <form>
-        <label for="name">NAME:</label>
-        <input type="text"><br>
-        <label for="email">EMAIL:</label>
-        <input type="email"><br>
+<div>
+            <label for="name">NAME:</label>
+        <input type="text">
+</div>
+        <div>
+            <label for="email">EMAIL:</label>
+        <input type="email">
+        </div>
 
-        <b>choose your gender:</b>
+        <div>
+            <b>choose your gender:</b>
         <input type="radio" id="male" value="male">
         <label for="male">MALE</label>
         <input type="radio" id="female" value="female">
-        <label for="female">FEMALE</label><br>
+        <label for="female">FEMALE</label>
+        </div>
 
-        <b>select your intrest:</b>
+        <div>
+            <b>select your intrest:</b>
         <input type="checkbox" id="coding" value="coding">
         <lablel for="coding">CODING:</lablel>
         <input type="checkbox" id="reading" value="reading">
-        <lablel for="reading">READING:</lablel><BR>
-
+        <lablel for="reading">READING:</lablel>
+        </div>
+        <div>
             <label for="Bio">Bio (up to 200 charecters)</label>
             <input type="text">
-            <br>
+        </div>
 
-            <button type="button">SUBMIT</button>
+           <button type="button"  class="submit">SUBMIT</button>
             </form>
 
            </section>
     </main>
-    <footer>
+    <a href="">
+        <button  class="top">TOP</button>
+    </a>
+        <footer>  
         <p>2026 my protfolio</p>
     </footer>
 </body>
